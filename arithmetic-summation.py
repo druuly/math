@@ -25,8 +25,8 @@ def menu():
     try:
 
         n = int(input("Welcome to Arithemtic Series. "
-                    "\n Select N: "))
-        i = int(input(" Select I: "))
+                    "\n Input Last Index Value: "))
+        i = int(input(" Input First Index Value: "))
         if n > i:
             option = str(input("\nThe Base Equation Will Be: 4r^2. \n"
                             "Feel Free To Change Code For Different Equation. \n"
